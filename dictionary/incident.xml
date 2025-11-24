@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true,hasWorkflow=true,live_feed=true,all_tables.query_hints=true" audit="true" db_object_id="efaf6176f1f322108bb2efdbde054cd0" extends="task" label="Incident" max_length="40" name="incident" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Resolution Group 2" max_length="32" name="x_58872_needit_resolution_group_2" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Confidential" max_length="255" name="x_58872_needit_confidential" type="boolean"/>
+    </element>
+</database>
